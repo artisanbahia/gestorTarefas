@@ -70,6 +70,17 @@ class Main extends Controller
             }
        
     }
+
+
+    public function view()
+    {
+
+        $dados = [
+            'title' => 'Gestor de Tarefas'
+        ];
+
+        return view('home', $dados);
+    }
 }
 
 

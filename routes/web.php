@@ -47,3 +47,6 @@ Route::get('/view-main', function(){
 
 
 Route::get('users', [Main::class, 'users']);
+
+
+Route::get('/view', [Main::class, 'view']);
