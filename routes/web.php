@@ -19,5 +19,10 @@ use App\Http\Controllers\Main;
 Route::get('/', [Main::class, 'index'])->name('index'); // atribuindo um nome para esta rota
 
 
+// Rota para formulário de Login
+
+Route::get('/login', [Main::class, 'login'])->name('login');
+Route::post('/login_submit', [Main::class, 'login_submit'])->name('login_submit'); // Método post
+
 
 
