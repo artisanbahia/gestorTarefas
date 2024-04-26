@@ -1,0 +1,53 @@
+
+
+
+
+
+
+COISAS RELEVANTES DA EXPERIÊNCIA
+
+
+
+
+[1] LISTAGEM DE MÉTODOS QUE PODEM SER ANINHADOS USANDO UMA ROTA DO TIPO GET, POST OU PUT
+
+
+
+Route::get('/', [ClassName::class, 'MethodName'])->métodos()->de(parâmetro-se-tiver)->outras()->classes()->aninhados()->com()->user->configurado()
+
+Route::NomeRota()->name('login'): Define um nome para a rota para referência fácil em outros lugares do código.
+middleware('CheckLogout::class'): Aplica um middleware para verificar se o usuário já está logado e redirecioná-lo, se necessário, para outra página.
+uses('AuthController@login'): Especifica o controlador e o método que serão chamados quando essa rota for acessada.
+prefix('auth'): Adiciona um prefixo ao URI da rota, se necessário, para organizar melhor as rotas relacionadas à autenticação.
+
+
+
+
+
+
+
+[2] SIMPLIFICAÇÃO DA MANEIRA DE ESCERVER UM IF COM PHP
+
+
+if(key_exists($status, $status_collection))
+            return $status_collection($status);
+        else
+            return "Desconhecido"; // Se tiver apenas uma declaração dentro do if, a sintaxe pode ser realizada assim sem uso de chaves
+
+
+
+[3] COLEÇÕES ANINHADAS
+
+
+    Em Main, eu tenho uma COLEÇÃO
+
+     $collection[] = [
+                'task_name' => $task->task_name,
+                'task_status' => $this->_status_name($task->task_status), // Pegando de uma coleção pra montar um elemento de outra coleção
+                'Task_actions' => $link_delete . $link_edit
+            ];
+
+
+    Que está sendo montada com um elemento da montagem de outra coleção, que vem do return de _status_name:
+
+    
