@@ -48,8 +48,12 @@ use App\Http\Middleware\CheckLogout;
 
 // TASKS - DELETE
 Route::get('/delete_task/{id}', [Main::class, 'delete_task'])->name('delete_task')->middleware(CheckLogin::class); // Formulário de inserção de nova task
-Route::post('/delete_task_confirm/{id}', [Main::class, 'delete_task_confirm'])->name('delete_task_confirm')->middleware(CheckLogin::class); // Submissão de inserção de nova task
+Route::get('/delete_task_confirm/{id}', [Main::class, 'delete_task_confirm'])->name('delete_task_confirm')->middleware(CheckLogin::class); // Submissão de inserção de nova task
 
+
+// SEARCH AND FILTER
+Route::post('/search_submit', [Main::class, 'search_submit'])->name('search_submit');
+Route::get('/filter/{filter}', [Main::class, 'filter'])->name('filter');
 
 
 
