@@ -1,7 +1,5 @@
 # gestorTarefas
 
-Gestor de Tarefas (project).
-.
 Este é um projeto de gestão de tarefas desenvolvido utilizando PHP 8.2.4, Laravel 11 e Composer 2.7.2.
 
 Visão Geral
