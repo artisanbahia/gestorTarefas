@@ -10,6 +10,7 @@ Funcionalidades Principais
 - Gestão de Tarefas: Oferece um painel para visualização, inclusão, edição e exclusão de tarefas.
 - Manipulação de Banco de Dados: Demonstra o uso das principais funções básicas de manipulação de banco de dados.
 - Validação de Dados: Documenta as regras de validação para garantir a integridade dos dados.
+![image](https://github.com/artisanbahia/gestorTarefas/assets/168686987/3ef145d8-b129-4d06-962b-4e443e430576)
 
 
 Tecnologias Utilizadas
