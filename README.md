@@ -11,12 +11,6 @@ Funcionalidades Principais
 - Manipulação de Banco de Dados: Demonstra o uso das principais funções básicas de manipulação de banco de dados.
 - Validação de Dados: Documenta as regras de validação para garantir a integridade dos dados.
 
-![tela-login](https://github.com/artisanbahia/gestorTarefas/assets/168686987/4815f8ff-ea31-4727-a8f2-57e3c90e0dec)
-
-
-
-
-
 
 
 Tecnologias Utilizadas
@@ -34,5 +28,8 @@ Instalação
 - Gere a chave de aplicativo: php artisan key:generate.
 - Execute as migrações do banco de dados: php artisan migrate.
 - Inicie o servidor: php artisan serve ou outro de sua preferência, como o Xampp.
+
+![gestorTarefas](https://github.com/artisanbahia/gestorTarefas/assets/168686987/1d4725c0-2465-4c71-887c-35e7df745a30)
+
 
 
