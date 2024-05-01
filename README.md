@@ -11,11 +11,7 @@ Funcionalidades Principais
 - Manipulação de Banco de Dados: Demonstra o uso das principais funções básicas de manipulação de banco de dados.
 - Validação de Dados: Documenta as regras de validação para garantir a integridade dos dados.
 
-![image](https://github.com/artisanbahia/gestorTarefas/assets/168686987/47e51de3-68b3-4884-bce3-aeaaa3396e0c)
-
-![image](https://github.com/artisanbahia/gestorTarefas/assets/168686987/3c80c6a0-50a2-4024-8aa2-7ccee2cac313)
-
-![image](https://github.com/artisanbahia/gestorTarefas/assets/168686987/9565e440-e2d0-4356-8023-8e50eca731c1)
+![tela-login](https://github.com/artisanbahia/gestorTarefas/assets/168686987/4815f8ff-ea31-4727-a8f2-57e3c90e0dec)
 
 
 
