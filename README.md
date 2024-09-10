@@ -2,10 +2,10 @@
 
 Este é um projeto de gestão de tarefas desenvolvido utilizando PHP 8.2.4, Laravel 11 e Composer 2.7.2.
 
-Visão Geral: 
-o projeto explora diversos conceitos fundamentais do framework Laravel, incluindo arquitetura MVC, rotas, Blade, Middlewares e Query Builder. Além disso, utiliza Bootstrap 5 e jQuery para uma experiência de usuário mais agradável.
+O projeto explora diversos conceitos fundamentais do framework Laravel, incluindo arquitetura MVC, rotas, Blade, Middlewares e Query Builder. Além disso, utiliza Bootstrap 5 e jQuery para uma experiência de interface e desenvolvimewnto mais agradáveis.
 
-Funcionalidades Principais
+As suasfFuncionalidades principais são:
+
 - Autenticação de Usuário: Implementa um sistema de login para controle de acesso.
 - Gestão de Tarefas: Oferece um painel para visualização, inclusão, edição e exclusão de tarefas.
 - Manipulação de Banco de Dados: Demonstra o uso das principais funções básicas de manipulação de banco de dados.
@@ -17,17 +17,11 @@ Tecnologias Utilizadas
 - PHP 8.2.4
 - Laravel 11
 - Composer 2.7.2
+- Javascript
 - Bootstrap 5
 - jQuery
 
-
-Instalação
-- Clone este repositório.
-- Instale as dependências com o Composer: composer install.
-- Copie o arquivo .env.example para .env e configure as variáveis de ambiente, incluindo a conexão com o banco de dados.
-- Gere a chave de aplicativo: php artisan key:generate.
-- Execute as migrações do banco de dados: php artisan migrate.
-- Inicie o servidor: php artisan serve ou outro de sua preferência, como o Xampp.
+Este projeto tem por base um curso de Laravel do excelente professor de programação João Ribeiro. O tempo de produção deste sistema foi de aproximadamente 10 dias.
 
 ![gestorTarefas](https://github.com/artisanbahia/gestorTarefas/assets/168686987/1d4725c0-2465-4c71-887c-35e7df745a30)
 
